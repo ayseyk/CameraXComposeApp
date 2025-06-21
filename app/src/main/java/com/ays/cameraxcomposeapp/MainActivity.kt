@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CameraXComposeAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    CameraScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
